@@ -37,17 +37,17 @@ STEPS for running the model on custom dataset on CV lab servers :
 - Tune the parameters according to the dataset and make the changes in the config file as mentioned in the above link. I trained our dataset on yolo medium network for 20 epochs with MAP@.95 = 0.784 and MAP@0.5 = 0.958
 - Once the training is complete, you can check the results in the run folder.
 - Download the best weight generated during the training. It will be used for the detection task later.
-- You can find the latest code which I used here : 
+- You can find the latest code which I used here : https://github.com/Interacting-Robotic-Systems-Laboratory/object-detection/tree/main/yolo_training
 
 # Model detection
 - Once the training is complete, you can use the best weights generated during training for the detection task on any new image.
-- Find the corresponding code here : 
+- Find the corresponding code here : https://github.com/Interacting-Robotic-Systems-Laboratory/object-detection/tree/main/detection
 
 # Integration with Pose Estimation
 - Built a simple Flask App in Python to run the object detection feature. 
 - Once the object detection API is called, it runs the detection task and sends the bounding box and class label to the pose estimation feature.
 - Pose estimation exposes an API to get bounding box, class label and image from object detection
-- We integrated the YOLOv3 version with Pose Estimation. Find the corresponding code here :
+- We integrated the YOLOv3 version with Pose Estimation. Find the corresponding code here : https://github.com/Interacting-Robotic-Systems-Laboratory/object-detection/tree/main/integration
 - Follow the same steps to integrate YOLOv5 with Pose Estimation.
 - You will have to deploye object detection and pose estimation apps seperately and use the corresponding IP addresses to call the APIS.
 
