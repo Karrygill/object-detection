@@ -37,6 +37,7 @@ STEPS for running the model on custom dataset on CV lab servers :
 - Tune the parameters according to the dataset and make the changes in the config file as mentioned in the above link. I trained our dataset on yolo medium network for 20 epochs with MAP@.95 = 0.784 and MAP@0.5 = 0.958
 - Once the training is complete, you can check the results in the run folder.
 - Download the best weight generated during the training. It will be used for the detection task later.
+- You can find the latest code which I used here : 
 
 # Model detection
 - Once the training is complete, you can use the best weights generated during training for the detection task on any new image.
@@ -53,3 +54,8 @@ STEPS for running the model on custom dataset on CV lab servers :
 # Deploying the model
 - You can deploy the Flask App on servers. 
 - Parallely, we explored deploying the individual flask apps using Docker images. Find the corresponding documentation here : https://medium.com/@shreyash-hisariya/deploying-deep-learning-models-using-docker-yolo-afd596e56d7a
+
+# Results 
+- I have uploaded the results here : https://drive.google.com/drive/folders/1rYWACNMYkEjjexjNxGo9L0fs0eckLXYX?usp=sharing
+- These are results of the latest training which we did using YOLOv5 model on custom dataset.
+- You can check the MAP, PR curves, Correlation matrices and detection results on test datasets.
