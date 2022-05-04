@@ -14,7 +14,7 @@ Contains code and data files related to the object detection tasks
 
 # Data Collection
 - The data used for training object detection consisted of synthetic dataset from Nvidia Research and custom images collected in the lab.
-- The Nvidia research dataset and lab dataset is uploaded here - 
+- The Nvidia research dataset and lab dataset is uploaded here : https://drive.google.com/drive/folders/1Q3rXiOCSkA2LaQ1IMAddENQM27RHNxSi?usp=sharing
 - The dataset consists of images and annotations for those images.
 - The annotation is a text file which is the required format for the YOLO model.
 - You can convert it to XML or JSON file for other object detection models if required in future.
