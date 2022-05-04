@@ -18,6 +18,7 @@ Contains code and data files related to the object detection tasks
 - The dataset consists of images and annotations for those images.
 - The annotation is a text file which is the required format for the YOLO model.
 - You can convert it to XML or JSON file for other object detection models if required in future.
+- The original Nvidia dataset can be found here : https://research.nvidia.com/publication/2018-06_falling-things-synthetic-dataset-3d-object-detection-and-pose-estimation
 
 # Image labeling and augmentation
 - Used the Labelmg tool to annotate the collected images.
