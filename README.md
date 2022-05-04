@@ -48,6 +48,7 @@ STEPS for running the model on custom dataset on CV lab servers :
 - Pose estimation exposes an API to get bounding box, class label and image from object detection
 - We integrated the YOLOv3 version with Pose Estimation. Find the corresponding code here :
 - Follow the same steps to integrate YOLOv5 with Pose Estimation.
+- You will have to deploye object detection and pose estimation apps seperately and use the corresponding IP addresses to call the APIS.
 
 # Deploying the model
 - You can deploy the Flask App on servers. 
