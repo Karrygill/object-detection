@@ -1,0 +1,10 @@
+train: ./train/images 
+val: ./valid/images
+test: ./test/images
+
+# number of classes
+nc: 10
+
+# class names
+# names: ["trafficlight","stop", "speedlimit","crosswalk"]
+name : ["red_mug","red_plate","red_spoon","red_fork","red_bowl","domino_sugar","cheez_it","white_ball","yellow_ball","soup_can"]
