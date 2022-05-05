@@ -20,13 +20,13 @@ Contains code and data files related to the object detection tasks
 - You can convert it to XML or JSON file for other object detection models if required in future.
 - The original Nvidia dataset can be found here : https://research.nvidia.com/publication/2018-06_falling-things-synthetic-dataset-3d-object-detection-and-pose-estimation
 
-# Image labeling and augmentation
+# Image Labeling and Augmentation
 - Used the Labelmg tool to annotate the collected images.
 - Follow this link on how to use the tool : https://github.com/tzutalin/labelImg 
 - We augmented the dataset too by rotating, flipping, changing brightness, contrast, cropping and zooming. 
 - Used this project for augmentation : https://github.com/mdbloice/Augmentor
 
-# Model training
+# Model Training
 I used the YOLOv5 model for object detection tasks. You can clone the latest code from this repo - https://github.com/ultralytics/yolov5 
 
 STEPS for running the model on custom dataset on CV lab servers : 
@@ -40,7 +40,7 @@ STEPS for running the model on custom dataset on CV lab servers :
 - Download the best weight generated during the training. It will be used for the detection task later.
 - You can find the latest code which I used here : https://github.com/Interacting-Robotic-Systems-Laboratory/object-detection/tree/main/yolo_training
 
-# Model detection
+# Model Detection
 - Once the training is complete, you can use the best weights generated during training for the detection task on any new image.
 - Find the corresponding code here : https://github.com/Interacting-Robotic-Systems-Laboratory/object-detection/tree/main/detection
 
@@ -52,7 +52,7 @@ STEPS for running the model on custom dataset on CV lab servers :
 - Follow the same steps to integrate YOLOv5 with Pose Estimation.
 - You will have to deploye object detection and pose estimation apps seperately and use the corresponding IP addresses to call the APIS.
 
-# Deploying the model
+# Deploying the Model
 - You can deploy the Flask App on servers. 
 - Parallely, we explored deploying the individual flask apps using Docker images. Find the corresponding documentation here : https://medium.com/@shreyash-hisariya/deploying-deep-learning-models-using-docker-yolo-afd596e56d7a
 
